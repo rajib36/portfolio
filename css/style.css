@@ -1,0 +1,1938 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+img{
+	vertical-align: middle;
+}
+ol,ul{
+	list-style: none;
+}
+a,
+a:hover,
+a:focus{
+	text-decoration: none;
+	outline: 0;
+}
+button,
+button:hover,
+button:focus{
+	text-decoration: none;
+	outline: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*--------------Start Menubar---------------*/
+.menu-bar{
+    background-color: rgb(32, 32, 32);
+    position: sticky;
+    top: 0px;
+    z-index: 900;
+}
+.navbar{
+	padding: 0;
+}
+.navbar a{
+	font-size: 35px;
+    color: #ffffff;
+}
+.navbar li a{
+	font-size: 13px;
+	padding: 11px 0px;
+}
+.navbar span{
+    color: #00acc1;
+}
+.navbar-nav a{
+	margin-left: 20px;
+	transition: all 0.3s ease;
+}
+.navbar-nav a:hover{
+	color: #00acc1;
+}
+.navbar-toggler:focus{
+    outline: 0;
+}
+.navbar-toggler-icon i{
+    margin-top: 5px;
+}
+/*--------------End Menubar---------------*/
+
+/*--------------Start Banner---------------*/
+.banner{
+	background-color: #181818;
+}
+.banner h1{
+	color: #ffffff;
+	margin-top: 150px;
+	margin-bottom: 15px;
+}
+.banner h6{
+	color: #cccaca;
+}
+.banner span{
+	color: #00acc1;
+}
+.banner p{
+	font-size: 14px;
+	color: #a5a5a5;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.banner .contact_me_btn{
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #00acc1;
+	padding: 9px 25px;
+	border: 1px solid #0d979c00;
+	border-radius: 2px;
+	transition: all .5s;
+	margin-bottom: 150px;
+}
+.banner .contact_me_btn:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.603), 0 6px 20px 0 rgba(0, 0, 0, 0.685);
+}
+.banner img{
+	height: 564px;
+	width: 320px;
+	transition: all .5s;
+}
+.banner img:hover{
+	transform: scale(1.1);
+}
+/*--------------End Banner---------------*/
+
+/*--------------Start About---------------*/
+.about{
+	background-color: #f2f2f2;
+}
+.about img{
+	height: 564px;
+	width: 320px;
+	margin-top: 40px;
+}
+.about h4{
+	margin-top: 130px;
+	margin-bottom: 40px;
+}
+.about h4 hr{
+	margin-left: 32px;
+}
+.about h6{
+	color: #0f0f0f;
+}
+.about p{
+	font-size: 14px;
+	color: #141414;
+	text-align: justify;
+	margin: 20px 0px;
+}
+.about .contact_me_btn{
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #00acc1;
+	padding: 9px 25px;
+	border: 1px solid #0d979c00;
+	border-radius: 2px;
+	transition: all .5s;
+	margin-bottom: 50px;
+}
+.about .contact_me_btn:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.247), 0 6px 20px 0 rgba(0, 0, 0, 0.226);
+}
+.about .row .working{
+	border-right: 2px solid #00acc1;
+	margin-right: 15px;
+}
+.about h6{
+	font-size: 14px;
+}
+/*--------------End About---------------*/
+
+/*--------------Start Resume---------------*/
+.resume{
+	background-color: #181818;
+}
+.resume h4{
+	color: #f2f2f2;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+h4 hr{
+	background-color: #00acc1;
+	width: 50px;
+	margin-left: 530px;
+}
+.resume h5{
+	color: #00acc1;
+}
+.resume h5 hr{
+	background-color: #00acc1;
+}
+.resume .experience{
+	margin: 15px 0;
+	transition: all .5s;
+}
+.resume .experience:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.452), 0 6px 20px 0 rgba(0, 0, 0, 0.616);
+}
+.resume .experience h5, h6{
+	color: #cccaca;
+	padding: 3px 0;
+}
+.resume .experience .one{
+	border-left: 2px solid #00acc1;
+	padding-left: 20px;
+}
+
+.resume .downlode_resume_btn{
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #00acc1;
+	border: 1px solid #00acc1;
+	border-radius: 2px;
+	padding: 15px 40px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	transition: all .5s;
+}
+.resume .downlode_resume_btn:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.747), 0 6px 20px 0 rgba(0, 0, 0, 0.719);
+}
+/*--------------End Resume---------------*/
+
+/*--------------Start Skill---------------*/
+.skill{
+	background-color: #f2f2f2;
+	padding-bottom: 70px;
+}
+.skill h4{
+	padding-top: 70px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.skill .card{
+	background-color: #272727;
+	transition: all .5s;
+	padding-bottom: 35px;
+}
+.skill .card:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.432);
+}
+.skill .card h5{
+	color: #00acc1;
+	padding-top: 20px;
+}
+.skill .card-body p{
+	color: #cccaca;
+	padding: 10px 0;
+}
+.skill .card-body .skill_row{
+	margin-top: 5px;
+}
+.skill .card-body .row button{
+	font-size: 13px;
+	color: #cccaca;
+	width: 160px;
+	padding: 6px 0;
+	border: 1px solid #686767;
+	border-radius: 3px;
+	background-color: transparent;
+	transition: all .5s;
+	margin-top: 17px;
+	margin-left: 15px;
+}
+.skill .card-body .row button:hover{
+	transform: scale(1.1);
+	color: #ffffff;
+	border: 1px solid #00acc1;
+	background-color: #00acc1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.603), 0 6px 20px 0 rgba(0, 0, 0, 0.685);
+}
+.skill .card .skill_readmore_btn{
+	font-size: 11px;
+	width: 90px;
+	padding: 4px 0;
+	color: #00acc1;
+	background-color: #141414;
+	border: 0px solid #00acc1;
+	border-radius: 3px;
+	align-self: center;
+	margin-top: 15px;
+	transition: all .5s;
+}
+.skill .card .skill_readmore_btn:hover{
+	color: #ffffff;
+	background-color: #00acc1;
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.719);
+}
+.slick-dots button{
+	display: none;
+}
+/*--------------End Skill---------------*/
+
+/*--------------Start Video Option---------------*/
+.channel .row .video_option{
+	padding: 0;
+}
+.channel video{
+	height: 405px;
+	width: 675px;
+}
+.channel .video_presentation{
+	background-color: #272727;
+	height: 380px;
+	width: 50%;
+	margin-top: 13px;
+	padding-top: 80px;
+	padding-left: 50px;
+}
+.channel .video_presentation h4{
+	color: #f2f2f2;
+	margin-bottom: 15px;
+}
+.channel .video_presentation p{
+	color: #a5a5a5;
+	text-align: justify;
+	margin-right: 150px;
+	font-size: 12px;
+}
+.channel hr{
+	margin-left: 0;
+}
+.channel .channel_btn{
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #00acc1;
+	padding: 9px 25px;
+	border: 1px solid #0d979c00;
+	border-radius: 2px;
+	transition: all .5s;
+	margin-top: 20px;
+}
+.channel .channel_btn:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.726), 0 6px 20px 0 rgba(0, 0, 0, 0.753);
+}
+/*--------------End Video Option---------------*/
+
+/*--------------Start Services Option---------------*/
+.services{
+	background-color: #f2f2f2;
+	padding-bottom: 70px;
+}
+.services h4{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.services .card .card-body .services_icon{
+	font-size: 40px;
+	color: #686767;
+	transition: all .5s;
+}
+.services .card .card-body h5{
+	font-size: 18px;
+	color: #000000;
+	padding-top: 20px;
+}
+.services .card .card-body p{
+	font-size: 15px;
+}
+.services .card{
+	transition: all .5s;
+}
+.services .card:hover .services_icon{
+	color: #00acc1;
+}
+.services .card:hover{
+	transform: scale(1.1);
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*--------------End Services Option---------------*/
+
+/*--------------Start Portfolio---------------*/
+.portfolio{
+	background-color: #272727;
+	padding-bottom: 70px;
+}
+.portfolio h4{
+	text-align: center;
+	color: #f2f2f2;
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+.portfolio .card{
+	margin-top: 15px;
+	margin-bottom: 35px;
+	border: none;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.637), 0 0px 15px 0 rgba(0, 0, 0, 0.548);
+	transition: all .5s;
+}
+/*--------------End Portfolio---------------*/
+
+/*--------------Start Client---------------*/
+.client{
+	background-color: #f2f2f2;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.client h4{
+	text-align: center;
+}
+.client .card{
+	margin: 8px 50px 15px 50px;
+	text-align: center;
+	background-color: #272727;
+	padding: 30px 0;
+	transition: all .5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.363), 0 6px 13px 0 rgba(0, 0, 0, 0.26);
+}
+.slick-arrow{
+	display: none !important;
+}
+.client .card p{
+	font-size: 12px;
+	color: #f2f2f2;
+	padding: 0 15px;
+}
+.client .card h5{
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	color: #f2f2f2;
+}
+.client .card hr{
+	background-color: #00acc1;
+	width: 40px;
+	margin-left: 110px;
+	transition: all .5s;
+}
+.client .card img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid #00acc1;
+	border-radius: 100%;
+	margin-top: 40px;
+	transition: all .5s;
+	margin-left: 77px;
+}
+.client .card:hover img{
+	transform: scale(1.1);
+	border: 2px solid #f2f2f2;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.712);
+}
+.client .card span{
+	transition: all .5s;
+}
+.client .card:hover span{
+	color: #000000;
+}
+.client .card:hover hr{
+	background-color: #000000;
+}
+.client .card:hover{
+	transform: scale(1);
+	background-color: #00acc1;
+}
+.client .card span{
+	color: #00acc1;
+	font-size: 15px;
+}
+/*--------------End Client---------------*/
+
+/*--------------Start Team---------------*/
+.team{
+	background-color: #272727;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.team h4{
+	color: #f2f2f2;
+	text-align: center;
+}
+
+.team .card{
+	margin: 5px 50px 0 50px;
+	text-align: center;
+	background-color: #00acc1;
+	padding: 25px 0;
+	transition: all .5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.363), 0 6px 13px 0 rgba(0, 0, 0, 0.26);
+}
+.team .card p{
+	font-size: 12px;
+	color: #f2f2f2;
+}
+.team .card h5{
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	color: #f2f2f2;
+}
+.team .card hr{
+	background-color: #000000;
+	width: 40px;
+	margin-left: 108px;
+	transition: all .5s;
+}
+.team .card img{
+	height: 120px;
+	width: 120px;
+	border: 2px solid #00acc1;
+	border-radius: 100%;
+	margin-top: 15px;
+	transition: all .5s;
+	margin-left: 67px;
+}
+.team .card:hover img{
+	transform: scale(1.1);
+	border: 2px solid #00acc1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.712);
+}
+.team .card span{
+	color: #000000 !important;
+	transition: all .5s;
+}
+.team .card:hover span{
+	color: #00cca1 !important;
+}
+.team .card:hover hr{
+	background-color: #00acc1;
+}
+.team .card:hover{
+	transform: scale(1.1);
+	background-color: #272727;
+}
+.team .card span{
+	color: #00acc1;
+	font-size: 15px;
+}
+.team .social_icon{
+	height: 35px;
+	width: 35px;
+	border: 1px solid #f2f2f2;
+	border-radius: 100%;
+	padding: 8px;
+	margin: 5px 10px 0 5px;
+	color: #f2f2f2;
+	opacity: 0;
+	transition: all .5s;
+}
+.team .card:hover .social_icon{
+	color: #00acc1;
+	opacity: 1;
+	border: 1px solid #00acc1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.507), 0 6px 13px 0 rgba(0, 0, 0, 0.418);
+}
+.team .social_icon:hover{
+	transform: scale(1.1);
+}
+.team .card-deck{
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+/*--------------End Team---------------*/
+
+/*--------------Start Blog---------------*/
+.blog{
+	background-color: #f2f2f2;
+	padding-bottom: 70px;
+}
+.blog h4{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.blog .card .card-body .blog_icon{
+	color: #00acc1;
+	margin-right: 8px;
+}
+.blog .card .card-body span{
+	color: #00acc1;
+	margin: 0 5px;
+}
+.blog .card .card-body h6{
+	color: #f2f2f2;
+}
+.blog .card .card-body h5{
+	font-size: 18px;
+	color: #f2f2f2;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+.blog .card .card-body p{
+	color: #f2f2f2;
+	font-size: 14px;
+}
+.blog .card .card-body{
+	background-color: #272727;
+}
+.blog .card{
+	transition: all .5s;
+}
+.blog .card:hover{
+	transform: scale(1.1);
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blog .card .blog_readmore_btn{
+	font-size: 11px;
+	width: 90px;
+	padding: 4px 0;
+	color: #00acc1;
+	background-color: transparent;
+	border: 1px solid #00acc1;
+	border-radius: 3px;
+	align-self: center;
+	margin-top: 10px;
+	margin-left: 200px;
+	transition: all .5s;
+}
+.blog .card .blog_readmore_btn:hover{
+	color: #ffffff;
+	background-color: #00acc1;
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.466), 0 6px 20px 0 rgba(0, 0, 0, 0.486);
+}
+/*--------------End Blog---------------*/
+
+/*--------------Start Contact---------------*/
+.contact{
+	background-image: url('../image/Rajib\ Picture.jpg');
+	background-repeat: repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	height: 650px;
+}
+.overlay{
+	position: absolute;
+	background-color: #000000d7;
+	width: 100%;
+	height: 650px;
+}
+.contact h4{
+	color: #f2f2f2;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.contact .card h6{
+	color: #ffffff;
+	margin-top: 15px;
+}
+.contact .card hr{
+	background-color: #00acc1;
+	width: 30px;
+	margin-bottom: 0!important;
+}
+.contact .card p{
+	font-size: 13px;
+	color: #f2f2f2;
+	padding-bottom: 20px;
+}
+.contact .card{
+	height: 400px;
+	background-color: #1a1a1aa1;
+	border: 1px solid #616161;
+	padding-left: 30px;
+}
+.contact .form-group input{
+	font-size: 14px;
+	height: 50px;
+	background-color: #1a1a1aa1;
+	border: 1px solid #616161;
+}
+.contact .form-group textarea{
+	background-color: #1a1a1aa1;
+	border: 1px solid #616161;
+	font-size: 14px;
+}
+.contact .send_message_btn{
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #00acc1;
+	padding: 10px 30px;
+	border: 1px solid #0d979c00;
+	border-radius: 2px;
+	transition: all .5s;
+}
+.contact .send_message_btn:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.829), 0 6px 20px 0 rgba(0, 0, 0, 0.829);
+}
+/*--------------End Contact---------------*/
+
+/*--------------Start Footer---------------*/
+.footer{
+	background-color: #141414;
+	height: 50px;
+}
+.footer p{
+	color: #727272;
+	font-size: 13px;
+	padding-top: 13px;
+	text-align: center;
+}
+.footer span{
+	color: #00acc1;
+}
+/*--------------Start Footer---------------*/
+
+
+
+/*--------------Start Responsive---------------*/
+@media (min-width: 350px) and (max-width: 575.98px){
+/*--------------Start Responsive Menubar---------------*/
+.navbar a{
+	font-size: 25px;
+}
+.navbar li a{
+	font-size: 11px;
+	padding: 11px 0px;
+}
+.navbar-nav a{
+	margin-left: 20px;
+}
+.navbar-toggler-icon i{
+    margin-top: 5px;
+}
+/*--------------End Responsive Menubar---------------*/
+
+/*--------------Start Responsive Banner---------------*/
+.banner{
+	height: 527px;
+	padding: 0 10px;
+}
+.banner h1{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.banner h6{
+	font-size: 14px;
+}
+.banner p{
+	font-size: 12px;
+}
+.banner .contact_me_btn{
+	margin-bottom: 20px;
+}
+.banner img{
+	height: 264px;
+	width: 145px;
+	margin-top: -90px;
+	margin-left: 140px;
+}
+.banner img:hover{
+	transform: scale(1);
+}
+/*--------------End Responsive Banner---------------*/
+
+/*--------------Start Responsive About---------------*/
+.about{
+	padding: 0 10px 30px 5px;
+}
+.about img{
+	display: none;
+}
+.about h4{
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.about h4 hr{
+	margin: 8px 0 0 0;
+	width: 100%;
+}
+.about p{
+	font-size: 12px;
+}
+.about .contact_me_btn{
+	margin-bottom: 30px;
+}
+.about .row .working{
+	padding:0 5px;
+}
+.about h6{
+	font-size: 12px;
+}
+/*--------------End Responsive About---------------*/
+
+/*--------------Start Responsive Resume---------------*/
+.resume h4{
+	font-size: 20px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+h4 hr{
+	margin: 8px 0 0 0;
+	width: 100%;
+}
+.resume h5{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.resume .experience{
+	font-size: 13px;
+	margin: 15px 30px;
+}
+
+.resume .downlode_resume_btn{
+	font-size: 14px;
+	padding: 12px 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+/*--------------End Responsive Resume---------------*/
+
+/*--------------Start Responsive Skill---------------*/
+.skill{
+	padding-bottom: 50px;
+}
+.skill h4{
+	font-size: 20px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.skill .card{
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.skill .card h5{
+	font-size: 18px;
+	padding-top: 10px;
+}
+.skill .card-body p{
+	font-size: 13px;
+	padding: 5px 0;
+}
+.skill .card-body .skill_row{
+	margin-top: 0px;
+}
+.circle-chart{
+	margin-bottom: 10px;
+	padding-right: 10px;
+	height: 30px;
+	width: 30px;
+}
+.circle-chart__info{
+	font-size: 8px;
+}
+.skill .card-body .row button{
+	font-size: 12px;
+	width: 120px;
+}
+.skill .card .skill_readmore_btn{
+	padding: 7px 0;
+}
+/*--------------End Responsive Skill---------------*/
+
+/*--------------Start Video Option---------------*/
+.channel .row .video_option{
+	padding: 0;
+}
+.channel video{
+	height: 185px;
+	width: 100%;
+}
+.channel .video_presentation{
+	padding-top: 40px;
+	height: 320px;
+	width: 100%;
+	margin-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.channel .video_presentation h4{
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+.channel .video_presentation p{
+	margin-right: 0;
+	font-size: 12px;
+}
+.channel .channel_btn{
+	font-size: 12px;
+	margin-top: 15px;
+}
+/*--------------End Responsive Video Option---------------*/
+
+/*--------------Start Responsive Services---------------*/
+.services{
+	padding-bottom: 50px;
+}
+.services h4{
+	padding-top: 50px;
+	font-size: 20px;
+}
+.services .card .card-body .services_icon{
+	font-size: 30px;
+}
+.services .card .card-body h5{
+	font-size: 16px;
+}
+.services .card .card-body p{
+	font-size: 14px;
+}
+.services .card{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-bottom: 2px;
+}
+/*--------------End Responsive Services---------------*/
+
+/*--------------Start Responsive Portfolio---------------*/
+.portfolio{
+	padding-bottom: 10px;
+}
+.portfolio h4{
+	font-size: 20px;
+	padding-top: 50px;
+}
+/*--------------End Responsive Portfolio---------------*/
+
+/*--------------Start Responsive Client---------------*/
+.client{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.client h4{
+	font-size: 20px;
+}
+.client .card p{
+	font-size: 11px;
+}
+.client .card h5{
+	margin-top: 20px;
+}
+.client .card hr{
+	margin-left: 70px;;
+}
+.client .card img{
+	margin-left: 40px;
+}
+/*--------------End Responsive Client---------------*/
+
+/*--------------Start Responsive Team---------------*/
+.team{
+	padding-bottom: 30px;
+}
+.team h4{
+	font-size: 20px;
+}
+.team .card{
+	margin: 5px 40px 0 40px;
+	padding: 20px 0;
+}
+.team .card h5{
+	margin-top: 20px;
+}
+.team .card hr{
+	margin-left: 80px;
+}
+.team .card img{
+	margin-top: 5px;
+	margin-left: 40px;
+}
+.team .social_icon{
+	height: 30px;
+	width: 30px;
+}
+/*--------------End Responsive Team---------------*/
+
+/*--------------Start Responsive Blog---------------*/
+.blog{
+	padding-bottom: 50px;
+}
+.blog h4{
+	font-size: 20px;
+	padding-top: 50px;
+}
+.blog .card .card-body .blog_icon{
+	font-size: 12px;
+}
+.blog .card .card-body span{
+	font-size: 12px;
+}
+.blog .card .card-body h6{
+	font-size: 14px;
+}
+.blog .card .card-body h5{
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.blog .card .card-body p{
+	font-size: 13px;
+}
+.blog .card{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.blog .card .blog_readmore_btn{
+	margin-left: 120px;
+}
+/*--------------End Responsive Blog---------------*/
+
+/*--------------Start Responsive Contact---------------*/
+.contact{
+	height: 1020px;
+}
+.overlay{
+	height: 1020px;
+}
+.contact h4{
+	font-size: 20px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.contact .card h6{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.contact .card p{
+	padding-bottom: 10px;
+}
+.contact .card{
+	height: 385px;;
+}
+.contact .form-group input{
+	font-size: 13px;
+	height: 50px;
+}
+.contact .form-group textarea{
+	font-size: 13px;
+}
+.contact .send_message_btn{
+	padding: 10px 20px;
+	margin-left: 90px;
+}
+/*--------------End Responsive Contact---------------*/
+
+/*--------------Start Responsive Footer---------------*/
+.footer{
+	height: 40px;
+}
+.footer p{
+	font-size: 12px;
+	padding-top: 9px;
+}
+/*--------------Start Responsive Footer---------------*/
+}
+
+
+
+/*Small devices (big size mobile phone) */
+@media (min-width: 576px) and (max-width: 767.98px){
+	/*--------------Start Responsive Menubar---------------*/
+	.navbar a{
+		font-size: 25px;
+	}
+	.navbar li a{
+		font-size: 11px;
+		padding: 11px 0px;
+	}
+	.navbar-nav a{
+		margin-left: 16px;
+	}
+	/*--------------End Responsive Menubar---------------*/
+	
+	/*--------------Start Responsive Banner---------------*/
+	.banner{
+		height: 527px;
+		padding: 0 10px;
+	}
+	.banner h1{
+		font-size: 25px;
+		margin-top: 70px;
+	}
+	.banner h6{
+		font-size: 17px;
+	}
+	.banner p{
+		font-size: 12px;
+	}
+	.banner .contact_me_btn{
+		margin-bottom: 20px;
+	}
+	.banner img{
+		height: 264px;
+		width: 145px;
+		margin-top: -66px;
+		margin-left: 190px;
+	}
+	.banner img:hover{
+		transform: scale(1);
+	}
+	/*--------------End Responsive Banner---------------*/
+	
+	/*--------------Start Responsive About---------------*/
+	.about{
+		padding: 0 10px 30px 5px;
+	}
+	.about img{
+		display: none;
+	}
+	.about h4{
+		font-size: 24px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.about h4 hr{
+		margin: 8px 0 0 0;
+		width: 100%;
+	}
+	.about p{
+		font-size: 14px;
+	}
+	.about .contact_me_btn{
+		margin-bottom: 30px;
+	}
+	.about .row .working{
+		padding:0 5px;
+	}
+	.about h6{
+		font-size: 16px;
+	}
+	/*--------------End Responsive About---------------*/
+	
+	/*--------------Start Responsive Resume---------------*/
+	.resume h4{
+		font-size: 24px;
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	h4 hr{
+		margin: 8px 0 0 0;
+		width: 100%;
+	}
+	.resume h5{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.resume .experience{
+		font-size: 14px;
+		margin: 15px 30px;
+	}
+	
+	.resume .downlode_resume_btn{
+		font-size: 14px;
+		padding: 12px 20px;
+		margin-top: 20px;
+		margin-bottom: 40px;
+		margin-left: 20px;
+	}
+	/*--------------End Responsive Resume---------------*/
+	
+	/*--------------Start Responsive Skill---------------*/
+	.skill{
+		padding-bottom: 50px;
+	}
+	.skill h4{
+		font-size: 24px;
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.skill .card{
+		padding-bottom: 30px;
+		margin-bottom: 40px;
+		padding-left: 10px;
+		padding-right: 40px;
+		margin-left: 110px;
+		margin-right: 110px;
+		width: 80px;
+	}
+	.skill .card h5{
+		font-size: 20px;
+		padding-top: 10px;
+	}
+	.skill .card-body p{
+		font-size: 14px;
+		padding: 5px 0;
+	}
+	.skill .card-body .skill_row{
+		margin-top: 0px;
+	}
+	.circle-chart{
+		margin-bottom: 10px;
+		padding-right: 0px;
+		height: 40px;
+		width: 40px;
+	}
+	.circle-chart__info{
+		font-size: 8px;
+	}
+	.skill .card-body .row button{
+		font-size: 14px;
+		width: 140px;
+		margin-left: 10px;
+		margin-right: 80px;
+	}
+	.skill .card .skill_readmore_btn{
+		padding: 7px 0;
+		margin-left: 25px;
+	}
+	/*--------------End Responsive Skill---------------*/
+	
+	/*--------------Start Video Option---------------*/
+	.channel .row .video_option{
+		padding: 0;
+	}
+	.channel video{
+		height: 312px;
+		width: 100%;
+	}
+	.channel .video_presentation{
+		padding-top: 40px;
+		height: 340px;
+		width: 100%;
+		margin-top: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.channel .video_presentation h4{
+		margin-bottom: 20px;
+		margin-top: 20px;
+		font-size: 24px;
+		text-align: center;
+	}
+	.channel .video_presentation p{
+		margin-right: 0;
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.channel .channel_btn{
+		font-size: 13px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+	/*--------------End Responsive Video Option---------------*/
+	
+	/*--------------Start Responsive Services---------------*/
+	.services{
+		padding-bottom: 50px;
+	}
+	.services h4{
+		padding-top: 50px;
+		font-size: 24px;
+	}
+	.services .card .card-body .services_icon{
+		font-size: 35px;
+	}
+	.services .card .card-body h5{
+		font-size: 18px;
+	}
+	.services .card .card-body p{
+		font-size: 15px;
+	}
+	.services .card{
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-bottom: 10px;
+	}
+	/*--------------End Responsive Services---------------*/
+	
+	/*--------------Start Responsive Portfolio---------------*/
+	.portfolio{
+		padding-bottom: 10px;
+	}
+	.portfolio h4{
+		font-size: 24px;
+		padding-top: 50px;
+	}
+	/*--------------End Responsive Portfolio---------------*/
+	
+	/*--------------Start Responsive Client---------------*/
+	.client{
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.client h4{
+		font-size: 24px;
+	}
+	.client .card-deck{
+		width: 310px;
+	}
+	.client .card p{
+		font-size: 12px;
+	}
+	.client .card h5{
+		margin-top: 20px;
+	}
+	.client .card hr{
+		margin-left: 65px;
+	}
+	.client .card img{
+		margin-left: 33px;
+	}
+	#slick-slide-control00{
+		display: none;
+	}
+	/*--------------End Responsive Client---------------*/
+	
+	/*--------------Start Responsive Team---------------*/
+	.team{
+		padding-bottom: 30px;
+	}
+	.team h4{
+		font-size: 24px;
+	}
+	.team .card{
+		margin: 5px 40px 0 40px;
+		padding: 20px 0;
+	}
+	.team .card h5{
+		margin-top: 20px;
+	}
+	.team .card hr{
+		margin-left: 68px;
+	}
+	.team .card img{
+		margin-top: 5px;
+		margin-left: 28px;
+	}
+	.team .social_icon{
+		height: 28px;
+		width: 28px;
+	}
+	.team .card-deck{
+		width: 300px;
+	}
+	/*--------------End Responsive Team---------------*/
+	
+	/*--------------Start Responsive Blog---------------*/
+	.blog{
+		padding-bottom: 50px;
+	}
+	.blog h4{
+		font-size: 24px;
+		padding-top: 50px;
+	}
+	.blog .card .card-body .blog_icon{
+		font-size: 12px;
+	}
+	.blog .card .card-body span{
+		font-size: 12px;
+	}
+	.blog .card .card-body h6{
+		font-size: 14px;
+	}
+	.blog .card .card-body h5{
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+	.blog .card .card-body p{
+		font-size: 13px;
+	}
+	.blog .card{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.blog .card .blog_readmore_btn{
+		margin-left: 145px;
+		margin-bottom: 10px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	/*--------------End Responsive Blog---------------*/
+	
+	/*--------------Start Responsive Contact---------------*/
+	.contact{
+		height: 1030px;
+	}
+	.overlay{
+		height: 1030px;
+	}
+	.contact h4{
+		font-size: 24px;
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.contact .card h6{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.contact .card p{
+		padding-bottom: 10px;
+	}
+	.contact .card{
+		height: 385px;
+		margin-bottom: 30px;
+	}
+	.contact .form-group input{
+		font-size: 13px;
+		height: 50px;
+	}
+	.contact .form-group textarea{
+		font-size: 13px;
+	}
+	.contact .send_message_btn{
+		padding: 10px 20px;
+		margin-left: 180px;
+		margin-top: 10px;
+	}
+	/*--------------End Responsive Contact---------------*/
+	
+	/*--------------Start Responsive Footer---------------*/
+	.footer{
+		height: 40px;
+	}
+	.footer p{
+		font-size: 12px;
+		padding-top: 9px;
+	}
+	/*--------------Start Responsive Footer---------------*/
+	}
+
+/*tablate devices/*/
+@media (min-width: 768px) and (max-width: 991.98px){
+/*--------------Start Menubar---------------*/
+
+/*--------------End Menubar---------------*/
+
+/*--------------Start Responsive Banner---------------*/
+.banner h1{
+	font-size: 30px;
+	margin-top: 122px;
+}
+.banner p{
+	font-size: 13px;
+	margin-right: 40px;
+}
+.banner img{
+	height: 564px;
+	width: 320px;
+	margin-left: -80px;
+}
+/*--------------End Responsive Banner---------------*/
+
+/*--------------Start Responsive About---------------*/
+.about img{
+	margin-top: 60px;
+	height: 500px;
+	width: 290px;
+}
+.about h4{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.about h4 hr{
+	margin-left: 32px;
+}
+.about h6{
+	font-size: 16px;
+}
+.about p{
+	font-size: 13px;
+}
+.about .row .working{
+	margin-right: 15px;
+}
+.about h6{
+	font-size: 16px;
+}
+/*--------------End Responsive About---------------*/
+
+/*--------------Start Responsive Resume---------------*/
+.resume h4{
+	font-size: 30px;
+}
+h4 hr{
+	margin-left: 320px;
+}
+.resume h5{
+	font-size: 16px;
+}
+.resume .experience{
+	font-size: 14px;
+	margin-left: 5px;
+}
+/*--------------End Responsive Resume---------------*/
+
+/*--------------Start Responsive Skill---------------*/
+.skill{
+	padding-bottom: 70px;
+}
+.skill h4{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+.skill .card{
+	margin-right: 10px;
+}
+.skill .card h5{
+	font-size: 16px;
+	padding-top: 10px;
+}
+.skill .card-body p{
+	font-size: 13px;
+	padding: 5px 0;
+}
+.skill .card-body .row button{
+	font-size: 11px;
+	width: 100px;
+	padding: 6px 0;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.circle-chart {
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+}
+/*--------------End Responsice Skill---------------*/
+
+/*--------------Start Responsice Video Option---------------*/
+.channel .row .video_option{
+	padding: 0;
+}
+.channel video{
+	height: 406px;
+	width: 675px;
+}
+.channel .video_presentation{
+	height: 380px;
+	width: 50%;
+	margin-top: 13px;
+	padding-top: 45px;
+	padding-left: 50px;
+}
+.channel .video_presentation h4{
+	margin-bottom: 10px;
+}
+.channel .video_presentation p{
+	margin-right: 50px;
+	font-size: 12px;
+}
+/*--------------End Responsice Video Option---------------*/
+
+/*--------------Start Responsice Services---------------*/
+.services h4{
+	font-size: 30px;
+}
+/*--------------End Responsice Services---------------*/
+
+/*--------------Start Responsice Portfolio---------------*/
+.portfolio h4{
+	font-size: 30px;
+}
+/*--------------End Responsice Portfolio---------------*/
+
+/*--------------Start Responsice Client---------------*/
+.client h4{
+	font-size: 30px;
+}
+.client .card{
+	margin: 8px 25px 15px 25px;
+	padding: 10px 0;
+}
+.client .card p{
+	font-size: 11px;
+	padding: 0 10px;
+}
+.client .card h5{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.client .card hr{
+	margin-left: 65px;
+}
+.client .card img{
+	margin-top: 30px;
+	margin-left: 35px;
+}
+/*--------------End Responsive Client---------------*/
+
+/*--------------Start Responsive Team---------------*/
+.team h4{
+	font-size: 30px;
+}
+.team .card{
+	margin: 5px 25px 0 25px;
+	padding: 10px 0;
+}
+.team .card p{
+	font-size: 12px;
+}
+.team .card h5{
+	font-size: 14px;
+	margin-top: 20px;
+}
+.team .card hr{
+	margin-left: 65px;
+}
+.team .card img{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.team .social_icon{
+	height: 30px;
+	width: 30px;
+	padding: 8px;
+	margin: 5px 5px 0 5px;
+}
+.slick-dots button{
+	display: none;
+}
+/*--------------End Responsive Team---------------*/
+
+/*--------------Start Responsive Blog---------------*/
+.blog h4{
+	font-size: 30px;
+}
+.blog .card .card-body .blog_icon{
+	font-size: 11px;
+	margin-right: 1px;
+}
+.blog .card .card-body span{
+	font-size: 11px;
+}
+.blog .card .card-body h6{
+	font-size: 11px;
+}
+.blog .card .card-body h5{
+	font-size: 14px;
+	color: #f2f2f2;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+.blog .card .card-body p{
+	font-size: 11px;
+}
+.blog .card .blog_readmore_btn{
+	font-size: 11px;
+	width: 90px;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+/*--------------End Responsive Blog---------------*/
+
+/*--------------Start Responsive Contact---------------*/
+.contact h4{
+	font-size: 30px;
+}
+.contact .card h6{
+	font-size: 14px;
+	margin-top: 15px;
+}
+.contact .card p{
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+.contact .card{
+	height: 400px;
+	padding-left: 10px;
+}
+.contact .form-group input{
+	font-size: 13px;
+}
+.contact .form-group textarea{
+	font-size: 13px;
+}
+/*--------------End Responsive Contact---------------*/
+}
+
+
+
+/*large devices/paltop*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+/*--------------Start Menubar---------------*/
+
+/*--------------End Menubar---------------*/
+.navbar a{
+	font-size: 30px;
+}
+.navbar li a{
+	font-size: 12px;
+}
+.navbar-nav a{
+	margin-left: 10px;
+}
+/*--------------Start Responsive Banner---------------*/
+.banner h1{
+	font-size: 30px;
+	margin-top: 122px;
+}
+.banner p{
+	font-size: 13px;
+	margin-right: 40px;
+}
+.banner img{
+	height: 564px;
+	width: 320px;
+	margin-left: -80px;
+}
+/*--------------End Responsive Banner---------------*/
+
+/*--------------Start Responsive About---------------*/
+.about img{
+	margin-top: 60px;
+	height: 500px;
+	width: 290px;
+}
+.about h4{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.about h4 hr{
+	margin-left: 32px;
+}
+.about h6{
+	font-size: 16px;
+}
+.about p{
+	font-size: 13px;
+}
+.about .row .working{
+	margin-right: 15px;
+}
+.about h6{
+	font-size: 16px;
+}
+/*--------------End Responsive About---------------*/
+
+/*--------------Start Responsive Resume---------------*/
+.resume h4{
+	font-size: 30px;
+}
+h4 hr{
+	margin-left: 320px;
+}
+.resume h5{
+	font-size: 16px;
+}
+.resume .experience{
+	font-size: 14px;
+	margin-left: 5px;
+}
+/*--------------End Responsive Resume---------------*/
+
+/*--------------Start Responsive Skill---------------*/
+.skill{
+	padding-bottom: 70px;
+}
+.skill h4{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+.skill .card{
+	margin-right: 10px;
+}
+.skill .card h5{
+	font-size: 16px;
+	padding-top: 10px;
+}
+.skill .card-body p{
+	font-size: 13px;
+	padding: 5px 0;
+}
+.skill .card-body .row button{
+	font-size: 11px;
+	width: 100px;
+	padding: 6px 0;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.circle-chart {
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+}
+/*--------------End Responsice Skill---------------*/
+
+/*--------------Start Responsice Video Option---------------*/
+.channel .row .video_option{
+	padding: 0;
+}
+.channel video{
+	height: 405px;
+	width: 675px;
+}
+.channel .video_presentation{
+	height: 379px;
+	width: 50%;
+	margin-top: 13px;
+	padding-top: 45px;
+	padding-left: 50px;
+}
+.channel .video_presentation h4{
+	margin-bottom: 10px;
+}
+.channel .video_presentation p{
+	margin-right: 50px;
+	font-size: 12px;
+}
+/*--------------End Responsice Video Option---------------*/
+
+/*--------------Start Responsice Services---------------*/
+.services h4{
+	font-size: 30px;
+}
+/*--------------End Responsice Services---------------*/
+
+/*--------------Start Responsice Portfolio---------------*/
+.portfolio h4{
+	font-size: 30px;
+}
+/*--------------End Responsice Portfolio---------------*/
+
+/*--------------Start Responsice Client---------------*/
+.client h4{
+	font-size: 30px;
+}
+.client .card{
+	margin: 8px 25px 15px 25px;
+	padding: 10px 0;
+}
+.client .card p{
+	font-size: 11px;
+	padding: 0 10px;
+}
+.client .card h5{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.client .card hr{
+	margin-left: 65px;
+}
+.client .card img{
+	margin-top: 30px;
+	margin-left: 35px;
+}
+/*--------------End Responsive Client---------------*/
+
+/*--------------Start Responsive Team---------------*/
+.team h4{
+	font-size: 30px;
+}
+.team .card{
+	margin: 5px 25px 0 25px;
+	padding: 10px 0;
+}
+.team .card p{
+	font-size: 12px;
+}
+.team .card h5{
+	font-size: 14px;
+	margin-top: 20px;
+}
+.team .card hr{
+	margin-left: 65px;
+}
+.team .card img{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.team .social_icon{
+	height: 30px;
+	width: 30px;
+	padding: 8px;
+	margin: 5px 5px 0 5px;
+}
+.slick-dots button{
+	display: none;
+}
+/*--------------End Responsive Team---------------*/
+
+/*--------------Start Responsive Blog---------------*/
+.blog h4{
+	font-size: 30px;
+}
+.blog .card .card-body .blog_icon{
+	font-size: 11px;
+	margin-right: 1px;
+}
+.blog .card .card-body span{
+	font-size: 11px;
+}
+.blog .card .card-body h6{
+	font-size: 11px;
+}
+.blog .card .card-body h5{
+	font-size: 14px;
+	color: #f2f2f2;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+.blog .card .card-body p{
+	font-size: 11px;
+}
+.blog .card .blog_readmore_btn{
+	font-size: 11px;
+	width: 90px;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+/*--------------End Responsive Blog---------------*/
+
+/*--------------Start Responsive Contact---------------*/
+.contact h4{
+	font-size: 30px;
+}
+.contact .card h6{
+	font-size: 14px;
+	margin-top: 15px;
+}
+.contact .card p{
+	font-size: 12px;
+	padding-bottom: 15px;
+}
+.contact .card{
+	height: 400px;
+	padding-left: 10px;
+}
+.contact .form-group input{
+	font-size: 13px;
+}
+.contact .form-group textarea{
+	font-size: 13px;
+}
+/*--------------End Responsive Contact---------------*/
+}
+/*--------------End Responsive---------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------design by Hossain Rajib--------------*/
+
+
+
+
+
+
+
+
+
